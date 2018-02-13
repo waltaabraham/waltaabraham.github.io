@@ -1,3 +1,27 @@
+# Personal Website Workshop
+
+1. [Create a repository](https://github.com/new) matching your username on github by clicking "Start New Project"
+   - Name it `username.github.io` where username is your github username
+
+2. Go to [my website and view my repository](https://github.com/MelissaHollingshed/MelissaHollingshed.github.io):
+     
+    - Open a terminal or bash session on your computer
+    - Clone my repository: `git clone https://github.com/MelissaHollingshed/MelissaHollingshed.github.io.git`
+    - Enter the directory:  `cd personal-site-workshop`
+
+3. Update where this website is connected to:
+    - Remove my git information: `git remote rm origin`
+    - Add your new repository: `git remote add origin https://github.com/username/username.github.io.git` Where username is your github username
+
+4. Push to your repository: `git push -u origin master`
+    - Enter your github username
+    - Enter your github password
+
+5. View your website at https://username.github.io 
+
+
+
+
 # Dev Portfolio
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
